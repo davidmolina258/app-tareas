@@ -1,0 +1,90 @@
+.container {
+  width: 50%;
+
+  background-color: rgb(173, 164, 164);
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+/* formulario */
+.inputText {
+  height: 2rem;
+  width: 50%;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid rgb(102, 100, 100);
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.submit {
+  height: 3rem;
+  width: 20%;
+  background-color: rgb(7, 80, 7);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.submit:hover {
+  background-color: rgb(138, 98, 24);
+}
+/* Tareas */
+.tareaContainer {
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.tarea {
+  position: relative;
+  list-style: none;
+  background-color: rgb(15, 3, 51);
+  color: white;
+  width: 70%;
+  height: 3rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.isDone {
+  position: relative;
+  list-style: none;
+  background-color: rgb(140, 112, 10);
+  color: white;
+  width: 70%;
+  height: 3rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  text-decoration: line-through;
+}
+/* sin tareas */
+.sinTareas {
+  background-color: rgb(140, 112, 10);
+  color: white;
+  width: 70%;
+  height: 3rem;
+  padding: 0 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
